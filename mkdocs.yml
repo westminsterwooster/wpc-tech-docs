@@ -1,7 +1,7 @@
 site_name: Insider Documentation | Westminster Presbyterian Church - Mackey Hall Technology
 
-repo_name: jackveney/wpc-tech-docs
-repo_url: https://github.com/jackveney/wpc-tech-docs
+repo_name: westminsterwooster/wpc-tech-docs
+repo_url: https://github.com/westminsterwooster/wpc-tech-docs
 edit_uri: ""
 extra_css:
   - 'css/extra.css'
@@ -11,7 +11,7 @@ extra:
     provider: mike
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/jackveney/wpc-tech-docs
+      link: https://github.com/westminsterwooster/wpc-tech-docs
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/wpcwooster
     - icon: fontawesome/brands/instagram
