@@ -1,10 +1,10 @@
 # Accessing Password Repository
 
-This article details accessing the KeePass password database. You must have KeePass installed your machine and the login information for both the WebDav server and the database. See below for the steps to access the database.
+This article details accessing the  password database. See below for the steps to access the database.
 
 ---
 
-## 1. Open KeePass
+<!-- ## 1. Open KeePass
   Open KeePass on your machine. If you do not have it installed, please [follow the installation instructions here](https://keepass.info/download.html). <i>Please note that KeePass is a Windows only software.</i>
   <br><img src="../assets/accessing/1200px-KeePass_icon.svg.png" alt="KeePass Icon" style="width:100px;"/>
 
@@ -45,4 +45,4 @@ This article details accessing the KeePass password database. You must have KeeP
 ### [Deleting Credentials](removing.md)
   Delete credentials in the password repository by following the steps in [this article](removing.md).
 
-  <br><img src="../assets/accessing/keepass_logged_in.png" alt="Successful Login"/>
+  <br><img src="../assets/accessing/keepass_logged_in.png" alt="Successful Login"/> -->

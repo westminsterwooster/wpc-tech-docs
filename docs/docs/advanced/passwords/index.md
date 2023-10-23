@@ -1,6 +1,6 @@
 # Password Repository
 
-A repository with all of the passwords has been set up through KeePass. The articles listed below will help you to access the repository and manage the passwords in the repository. The repository list all of the important technology passwords, excluding YouTube and Facebook. If you need those passwords, please consult with the pastor.
+A repository with all of the passwords has been set up. The articles listed below will help you to access the repository and manage the passwords in the repository. The repository list all of the important technology passwords, excluding YouTube and Facebook. If you need those passwords, please consult with the pastor.
 
 ---
 
