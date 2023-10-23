@@ -150,15 +150,15 @@ nav:
       - Changelog: changelog.md
   - General Instructions:
     - docs/general/index.md
-    - Switching To COW Internet: docs/general/internet.md
+#    - Switching To COW Internet: docs/general/internet.md
     - Setting Up and Powering On Computer / Cameras / Sound System / Projector: docs/general/setting-up-powering-on.md
     - Connecting iPad to Sound System: docs/general/ipad-sound-system.md
-    - Fixing Proclaim for OBS Studio: docs/general/fixing-proclaim.md
+#    - Fixing Proclaim for OBS Studio: docs/general/fixing-proclaim.md
     - Starting Recording and Livestreaming: docs/general/starting-recording-livestream.md
     - During the Service: docs/general/during-service.md
     - Stopping Recording and Livestreaming: docs/general/stopping-recording-livestream.md
     - Shutting Down and Packing Up Computer / Cameras / Sound System / Projector: docs/general/shutting-down-packing-up.md
-    - Switching To Church Internet: docs/general/internet-2.md
+#    - Switching To Church Internet: docs/general/internet-2.md
     - Stream Deck Icons: docs/general/stream-deck.md
     - Changing Audio Output Device: docs/general/audio-output.md
   - Cameras:
