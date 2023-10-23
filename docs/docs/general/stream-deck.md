@@ -29,3 +29,13 @@ This page explains the meanings of each icon on the stream deck.
 |:---:|:---:|:---:|:---:|:---:|
 | Back | Home | Full Front | Pulpit | Table |
 | Back to main menu (above) | Home position of camera, completely zoomed out | View of the entire front setup | View of pulpit | Zoomed in view of just the table |
+
+|  |  |  |  |  |
+|:---:|:---:|:---:|:---:|:---:|
+|  |  |  |  |  |
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+|:---:|:---:|:---:|:---:|:---:|
+|  |  |  |  |  |
+|  |  |  |  |  |
