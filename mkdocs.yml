@@ -148,7 +148,7 @@ nav:
   - About: 
       - About:   about.md
       - Changelog: changelog.md
-  - General Instructions:
+  - Service Instructions:
     - docs/general/index.md
 #    - Switching To COW Internet: docs/general/internet.md
     - Setting Up and Powering On Computer / Cameras / Sound System / Projector: docs/general/setting-up-powering-on.md
@@ -258,6 +258,31 @@ nav:
         - docs/computer/maintanince/elgato/index.md
         - Stream Deck: docs/computer/maintanince/elgato/streamdeck.md
         - Capture Card: docs/computer/maintanince/elgato/capture_card.md
+  - Online Applications:
+    - docs/online/index.md
+    - Login Server:
+      - docs/online/login/index.md
+    - Account Management:
+      - docs/online/account/index.md
+      - User:
+        - docs/online/account/user/index.md
+      - Administrator:
+        - docs/online/account/admin/index.md
+    - Content Management:
+      - docs/online/cms/index.md
+    - Password Repository:
+      - docs/advanced/passwords/index.md
+      - Accessing: docs/online/passwords/accessing.md
+      - Viewing Passwords: docs/online/passwords/viewing.md
+      - Adding Passwords: docs/online/passwords/addng.md
+      - Editing Passwords: docs/online/passwords/editing.md
+      - Removing Passwords: docs/online/passwords/removing.md
+    - Nextcloud:
+      - docs/online/nextcloud/index.md
+      - Backup Files Repository:
+        - docs/online/nextcloud/backups/index.md
+    - Documentation Files:
+      - docs/online/documentation/index.md
   - Advanced Information:
     - docs/advanced/index.md
     - Technology Listing:
@@ -267,15 +292,6 @@ nav:
       - Technology Not In Use: docs/advanced/technology/not_in_use.md
     - Cabling Diagrams:
       - docs/advanced/cabling/index.md
-    - Password Repository:
-      - docs/advanced/passwords/index.md
-      - Accessing: docs/advanced/passwords/accessing.md
-      - Viewing Passwords: docs/advanced/passwords/viewing.md
-      - Adding Passwords: docs/advanced/passwords/addng.md
-      - Editing Passwords: docs/advanced/passwords/editing.md
-      - Removing Passwords: docs/advanced/passwords/removing.md
-    - Backup Files Repository:
-      - docs/advanced/backups/index.md
     - Router: 
       - docs/advanced/router/index.md
       - Settings:
