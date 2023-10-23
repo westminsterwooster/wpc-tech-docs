@@ -17,9 +17,18 @@ Welcome to the backup files repository page. Here, you can find backups for vari
 Please note that these backup files are stored in our cloud repository for easy access and restoration purposes. They are organized within individual folders based on the following hierarchy: *`Year > Month > Day`*. This structure allows for ease of finding the backups based on the specific date. Appropriate access permissions are granted to authorized personnel only.
 
 You can access the backup files at the following links:
+<<<<<<< Updated upstream
 - [OBS Studio (Streaming Instance) Backup](https://cloud.wpctech.info/apps/files/?dir=/Backups/OBS%20Studio/Streaming)
 - [OBS Studio (All Cameras Instance) Backup](https://cloud.wpctech.info/apps/files/?dir=/Backups/OBS%20Studio/All%20Cameras)
 - [Router Backup](https://cloud.wpctech.info/apps/files/?dir=/Backups/WPC_Cameras%20Router)
 - [PTZ Camera Backup](https://cloud.wpctech.info/apps/files/?dir=/Backups/PTZ%20Camera)
 - [Passwords Repository Backup](https://cloud.wpctech.info/apps/files/?dir=/Admin%20Backups/Passwords)
+=======
+  
+* [OBS Studio (Streaming Instance) Backup](https://cloud.wpctech.info/apps/files/?dir=/Backups/OBS%20Studio/Streaming)
+* [OBS Studio (All Cameras Instance) Backup](https://cloud.wpctech.info/apps/files/?dir=/Backups/OBS%20Studio/All%20Cameras)
+* [Router Backup](https://cloud.wpctech.info/apps/files/?dir=/Backups/WPC_Cameras%20Router)
+* [PTZ Camera Backup](https://cloud.wpctech.info/apps/files/?dir=/Backups/PTZ%20Camera)
+<!--  * [Passwords Repository Backup](https://cloud.wpctech.info/apps/files/?dir=/Admin%20Backups/Passwords) -->
+>>>>>>> Stashed changes
 
