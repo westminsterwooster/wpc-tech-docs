@@ -3,6 +3,7 @@ site_name: Insider Documentation
 repo_name: westminsterwooster/wpc-tech-docs
 repo_url: https://github.com/westminsterwooster/wpc-tech-docs
 edit_uri: ""
+site_url: 'https:/wpctechdocs.info/'
 extra_css:
   - 'css/extra.css'
 
@@ -81,12 +82,15 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-copyright: Copyright &copy; 2023 Jack Veney - Westminster Presbyterian Church Wooster, Ohio
+copyright: Copyright &copy; 2023 Jack Veney for Westminster Presbyterian Church Wooster, Ohio
 plugins:
   - search:
       lang: en
   - social:
+      enabled: !ENV [CI, false]
       cards: !ENV [CARDS, false]
+  - tags:
+      enabled: true
   - redirects:
       redirect_maps:
         tech-docs.md: docs/index.md
@@ -148,6 +152,8 @@ nav:
   - About: 
       - About:   about.md
       - Changelog: changelog.md
+      - License: license
+      - Security: SECURITY.md
   - Service Instructions:
     - docs/general/index.md
 #    - Switching To COW Internet: docs/general/internet.md
@@ -271,7 +277,7 @@ nav:
     - Content Management:
       - docs/online/cms/index.md
     - Password Repository:
-      - docs/advanced/passwords/index.md
+      - docs/online/passwords/index.md
       - Accessing: docs/online/passwords/accessing.md
       - Viewing Passwords: docs/online/passwords/viewing.md
       - Adding Passwords: docs/online/passwords/addng.md
