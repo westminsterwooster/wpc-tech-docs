@@ -152,8 +152,6 @@ nav:
   - About: 
       - About:   about.md
       - Changelog: changelog.md
-      - License: license
-      - Security: SECURITY.md
   - Service Instructions:
     - docs/general/index.md
 #    - Switching To COW Internet: docs/general/internet.md

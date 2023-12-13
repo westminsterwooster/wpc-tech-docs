@@ -17,7 +17,7 @@ For any questions or comments, please [email me](mailto:jackveney03@gmail.com).
 
 ### Westminster Presbyterian Church Insider Technology Documentation Project
 
-[View License](LICENSE)
+[View License](https://github.com/westminsterwooster/wpc-tech-docs/blob/main/license)
 
 ---
 
