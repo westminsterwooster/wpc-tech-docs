@@ -1,2 +1,5 @@
- 
-Streaming Settings
+---
+slug: streaming-settings
+---
+
+# Streaming Settings

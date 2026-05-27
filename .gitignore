@@ -1,2 +1,7 @@
 
 log.csv
+node_modules/
+build/
+.docusaurus/
+.docusaurus-pdf/
+npm-debug.log*

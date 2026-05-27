@@ -6,7 +6,7 @@ The Westminster Presbyterian Church Technology Documentation is a reference for 
 
 ## Notes
 
-This document is a work in progress. Please ignore if there is any gramartical mistakes and let me know so that we can correct them accordingly.
+This document is a work in progress. Please ignore any grammatical mistakes and let me know so that we can correct them accordingly.
 
 
 For any questions or comments, please [email me](mailto:jackveney03@gmail.com).
@@ -21,16 +21,8 @@ For any questions or comments, please [email me](mailto:jackveney03@gmail.com).
 
 ---
 
-### Westminster Presbyterian Church Technology Documentation Theme
+### Docusaurus
 
-Themes used under license from Martin Donath.
+Docusaurus is used under license from Meta Open Source.
 
-Material for MKDocs Theme - [View License](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE)
-
----
-
-### MkDocs
-
-MkDocs builder used under license from the MkDocs projects.
-
-MkDocs - [View License](https://github.com/mkdocs/mkdocs/blob/master/LICENSE)
+Docusaurus - [View License](https://github.com/facebook/docusaurus/blob/main/LICENSE)
