@@ -1,16 +1,29 @@
 # Starting Recording and Livestreams
 
-Follow the instructions below to start the recordings and livestreams.
+Use this shortly before the service begins.
 
 ---
 
-## 1. Proclaim Muted
- - Make sure that OBS is on the "Proclaim Muted" scene.
- <br />![Proclaim Muted](../../assets/images/stream-deck/proclaim_muted.png)
+## Before Starting
 
-## 2. Just Before 9:50 AM
- - Just before 9:50 AM, press the Record, Stream, and Virtual Camera Icons
- <br />![Buttons to Press](../../assets/images/starting-stream-recording/record-stream-virtualcam.png)
+- On the Stream Deck, select `Proclaim Muted`.
+- Confirm OBS is showing the `Proclaim Muted` scene before starting any outputs.
 
- ---
- The livestreams should now be output to YouTube and Facebook Live. Open the Google Chrome window you closed earlier and nativate to the livestream to verify.
+<br />![Proclaim Muted](../../assets/images/stream-deck/proclaim_muted.png)
+
+## Start Outputs
+
+- Just before 9:50 AM, press these Stream Deck buttons:
+  - `Record`
+  - `Stream`
+  - `Virtual Camera`
+
+<br />![Buttons to Press](../../assets/images/starting-stream-recording/record-stream-virtualcam.png)
+
+## Verify Livestreams
+
+- Open Google Chrome.
+- Check the YouTube and Facebook livestream pages.
+- Confirm video and audio are live before the service begins.
+
+The recordings and livestreams should now be running.

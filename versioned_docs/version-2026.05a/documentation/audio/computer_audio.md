@@ -1,4 +1,4 @@
-# Using Computer Audio
+# Using Computer Audio (Guest)
 
 This guide explains how to play audio from a computer in Mackey Hall using the wall touchscreen audio controls.
 

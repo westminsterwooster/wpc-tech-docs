@@ -1,4 +1,4 @@
-# Using Audio Controls
+# Using Audio Controls (Guest)
 
 This guide explains how to use the iPad touchscreen audio controls in Mackey Hall.
 

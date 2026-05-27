@@ -1,42 +1,59 @@
 # During the Service
 
-Instructions for during the service. Run the livestream image according to below, or as you desire.
+Use these notes as a normal Sunday livestream guide. Adjust as needed for the order of worship, special music, guest speakers, or changes in the room.
 
-**When switching the rear camera, try to make sure that it is not showing on the outgoing stream. It moves in a not so fluid motion, so it's better to have it on "Full Proclaim" or one of the Mevo scenes.**
+When moving the rear PTZ camera, avoid showing the movement on the outgoing stream. Switch to `Full Proclaim` or a Mevo scene before changing PTZ presets, then switch back once the camera is settled.
 
 ---
 
 ## Welcome and Announcements
- - Use the "Full Front" camera preset and "Rear Camera" scene for the welcome and announcements.
- - The pulpit microphone is usually the only one that needs to be unmuted during this. If people use the handheld for an announcement, unmute it also.
- 
-## Hymns
- - For hymns use the "Full Proclaim" scene to show the hymn lyrics full screen for the livestream.
- - Leave the pulpit microphone unmuted, as well as unmute the piano and organ microphones.
 
-## OLO Singers / Prelude, Postlude, and Musical Response
- - Use the "Mevo" camera scene pointed at the music area for these, no Proclaim, to see the singers.
-  - Leave the pulpit microphone unmuted, as well as unmute the piano and organ microphones.
+- Use the `Full Front` camera preset.
+- Use the `Rear Camera` scene.
+- Keep the pulpit microphone unmuted.
+- If someone uses the handheld microphone for an announcement, unmute it before they speak.
+
+## Hymns
+
+- Use the `Full Proclaim` scene so hymn lyrics fill the livestream.
+- Keep the pulpit microphone unmuted.
+- Unmute the piano and organ microphones when they are being used.
+
+## OLO Singers / Prelude / Postlude / Musical Response
+
+- Use a Mevo scene pointed toward the music area.
+- Do not include Proclaim unless lyrics or text need to be shown.
+- Unmute the microphones needed for the musicians.
 
 ## Liturgist Readings and Prayers
- - Use the "Full Front" camera preset and "Rear Camera Proclaim" scene to show the liturgist and the text that goes with it.
- - The pulpit microphone is the only one that needs to be unmuted during this.
 
-## Prayer of Illumination, Scripture, and Sermon
- - Use the "Pulpit" camera preset and "Rear Camera" scene for the Prayer of Illumination and the Sermon.
- - Bring Proclaim onscreen during the scripture reading and for any images during the sermon by using the "Rear Camera Proclaim" preset.
- - The pulpit microphone is the only one that needs to be unmuted during this.
+- Use the `Full Front` camera preset.
+- Use `Rear Camera Proclaim` when the liturgy text should remain visible.
+- The pulpit microphone is usually the only microphone needed.
+
+## Scripture and Sermon
+
+- Use the `Pulpit` camera preset.
+- Use the `Rear Camera` scene for the speaker.
+- Use `Rear Camera Proclaim` when scripture text, sermon slides, or images should appear onscreen.
+- The pulpit microphone is usually the only microphone needed.
 
 ## Communion
- - Use the "Table" camera preset and "Rear Camera Proclaim" scene for the written prayers.
- - Otherwise use the "Rear Camera" preset if there is a point without a written prayer.
- - The lapel microphone is the only one that needs to be unmuted during this.
+
+- Use the `Table` camera preset for communion at the table.
+- Use `Rear Camera Proclaim` when written prayers need to stay visible.
+- Use `Rear Camera` when no written prayer needs to be shown.
+- The lapel microphone is usually the only microphone needed unless others are speaking up front.
 
 ## Sharing of Joys and Concerns
- - Use the "Full Front" camera preset and "Rear Camera" scene to show the front of the room and any people that come up to share.
- - When the Prayer of the People and The Lord's Prayer start, bring Proclaim onscreen by using the "Rear Camera Proclaim" preset.
- - The pulpit microphone and handheld microphone both need to be unmuted during this.
+
+- Use the `Full Front` camera preset.
+- Use the `Rear Camera` scene while people are sharing.
+- When the Prayer of the People or Lord's Prayer begins, switch to `Rear Camera Proclaim`.
+- Keep the pulpit and handheld microphones unmuted as needed.
 
 ## Benediction
- - Use the "Full Front" camera preset and "Rear Camera" scene for the benediction.
- - The pulpit microphone is the only one that needs to be unmuted during this.
+
+- Use the `Full Front` camera preset.
+- Use the `Rear Camera` scene.
+- The pulpit microphone is usually the only microphone needed.
