@@ -10,9 +10,7 @@
     "clear": "docusaurus clear",
     "typecheck": "tsc --noEmit",
     "docs:version": "docusaurus docs:version",
-    "docs:pdf": "node scripts/build-pdf.mjs",
-    "build:pdf": "npm run docs:pdf",
-    "build:all": "npm run docs:pdf && npm run build"
+    "build:all": "npm run build"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.1",

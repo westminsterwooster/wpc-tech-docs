@@ -20,15 +20,23 @@ Follow the instructions below to get the computer, cameras, sound system, and pr
 ## 4. Log On to Computer
  - Log on to the computer using the Westminster account and the pin located on the back of computer.
 
-## 5. Power on Projector
- - Retrieve the remote from the second to bottom drawer on the sound system rack.
- <br />![NEC Projector Remote](../../assets/images/setting-up-powering-on/sound-system-rack%400.1x.png)
- - Get somewhere near the projector and press the remote's "On" button to power on the projector
- <br />![NEC Projector Remote](../../assets/images/setting-up-powering-on/nec-projector-remore%400.25x.png)
- - Return the remote to the drawer.
+## 5. Power on Projector / Rear TV
+ - Use the wall touchscreen in Mackey Hall for projector and rear TV power.
+ - If the touchscreen is not on the Homepage or the `Power` page, press the `Home` icon in the top-left corner.
+ - If you are on the Homepage, press `Power` to open the power controls.
+ <br />![Control Screen Homepage](../../assets/images/video/control-screen_new/homepage.png)
+ - Press `Projector On` to power on the projector.
+ - If the rear TV is needed, press `Rear TV` to power it on.
+ <br />![Power Menu Screen](../../assets/images/video/control-screen_new/power_1.png)
+ - Allow about 30 seconds for the projector to fully start.
 
 ## 6. Open Projector Screen
- - On the wall opposite the computer station, underneath the projector, switch the projector screen switch to the down position to open the projector screen.
+ - The projector screen control switch is on the south wall, to the right of the windows.
+ <br />![Projector Screen Controls Location](../../assets/images/video/raising-lowering_projector_screen/projector_screen_location.png)
+ - Press the lower half of the screen control switch fully in.
+ - Wait while the screen lowers. It will stop automatically at its lowest position.
+ - Toggle the switch back to the neutral center position after the screen is fully lowered.
+ <br />![Projector Switch in Down Position](../../assets/images/video/raising-lowering_projector_screen/projector_screen_controls_down.png)
 
 ## 7. Power on PTZ Camera
  - Retrieve the remote for the rear PTZ camera.
@@ -54,11 +62,14 @@ Follow the instructions below to get the computer, cameras, sound system, and pr
  - Get the iPad from the storage location, power it on, and place it on the desk for later.
  <br />![iPad Storage](../../assets/images/setting-up-powering-on/mevos-ipad%400.1x.png)
 
-## 11. Turn on Sound System Amplifier
- - Turn on the amplifier on the sound system rack to get sound output from the mircophones.
- - The amplifier is the third most bottom thing on the sound system rack.
- <br />![Amplifier](../../assets/images/setting-up-powering-on/sound-system-rack-amplifier%400_3.png)
- - Press the power button in the bottom right of it. It will stay partway in and turn blue when on.
+## 11. Turn on Sound System
+ - Go to the sound system rack.
+ - Find the red `Power` switch on the rack. If the switch is not lit red, turn it on.
+ <br />![Rack Power Switch](../../assets/images/audio/sound_system_on-off/power-new.png)
+ - Locate the amplifier in the rack, third unit from the bottom.
+ - Press the amplifier power button at the bottom-right.
+ - Confirm the button lights blue, which means the amplifier is on.
+ <br />![Amplifier Power Button](../../assets/images/audio/sound_system_on-off/power-new_amplifier.png)
 
 ## 12. Connect iPad to Sound System
  - Follow the steps [here](ipad-sound-system.md) to connect to the sound system.

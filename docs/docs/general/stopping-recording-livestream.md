@@ -1,21 +1,30 @@
 # Stopping Recording and Livestreams
 
-Follow the instructions below to finish the service recording and livestreams.
+Use this after the service ends.
 
 ---
 
-## 1. Proclaim Muted, Running Slideshow
- - Make sure that OBS is on the "Proclaim Muted" scene and let the post slideshow run once or twice through.
- <br />![Proclaim Muted](../../assets/images/stream-deck/proclaim_muted.png)
+## Before Stopping
 
-## 2. Stopping Livestream, Recording, Virtual Camera
- - Press the Record, Stream, and Virtual Camera Icons to stop everything.
- <br />![Buttons to Press](../../assets/images/starting-stream-recording/record-stream-virtualcam.png)
+- Switch OBS to `Proclaim Muted`.
+- Let the post-service slideshow run once or twice before stopping the streams.
 
-## 3. Stop YouTube
- - Open the Google Chrome window from the beginning of the service and go to the YouTube tab.
- - Press the big red "End Stream" button in the top right of the YouTube livestream manager.
+<br />![Proclaim Muted](../../assets/images/stream-deck/proclaim_muted.png)
 
----
+## Stop OBS Outputs
+
+- Press these Stream Deck buttons to stop the active outputs:
+  - `Record`
+  - `Stream`
+  - `Virtual Camera`
+
+<br />![Buttons to Press](../../assets/images/starting-stream-recording/record-stream-virtualcam.png)
+
+## End the YouTube Stream
+
+- Open the Chrome window used to monitor the livestream.
+- Go to the YouTube livestream manager tab.
+- Press the red `End Stream` button in the top-right corner.
+- Confirm the stream has ended when YouTube asks.
 
 The streams and recordings are now stopped.

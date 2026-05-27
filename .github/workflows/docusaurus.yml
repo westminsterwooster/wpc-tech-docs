@@ -29,26 +29,11 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: Install Pandoc
-        uses: pandoc/actions/setup@v1
-
-      - name: Install TeX Live
-        run: sudo apt-get update && sudo apt-get install -y texlive-xetex texlive-latex-recommended texlive-fonts-recommended
-
       - name: Install dependencies
         run: npm ci
 
-      - name: Build PDF
-        run: npm run docs:pdf
-
       - name: Build site
         run: npm run build
-
-      - name: Upload PDF artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: manual-2026.05a
-          path: static/manual-2026.05a.pdf
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3

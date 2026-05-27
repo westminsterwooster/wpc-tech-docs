@@ -1,59 +1,95 @@
-# Shutting Down and Packing Up Computer / Cameras / Sound System / Projector
+# Shutting Down and Packing Up
 
-Follow the instructions below to get the computer, cameras, sound system, and projector ready to use for the service.
+Use this after service to stop equipment, return microphones and cameras, and leave Mackey Hall ready for the next use.
 
 ---
 
-## 1. Close Computer Programs
- - Close all the computer programs.
+## Computer
 
-## 2. Power off the Computer
- - Power off the computer by going Windows Logo -> Power -> Shut Down
+### Close Computer Programs
 
-## 3. Switch Off Power Strip
- - The computer will click once after turning if off. After this, it is safe to turn off the power strip
- - Turn off the power strip located behind the computer.
+- Close OBS Studio, OBS All Cameras, Proclaim, Chrome, and any other service-related windows.
 
-## 4. Cover Computer and Monitors
- - Replace the cover on the computer desk.
+### Shut Down the Computer
 
-## 5. Power Off Projector
- - Retrieve the remote from the second to bottom drawer on the sound system rack.
- <br />![NEC Projector Remote](../../assets/images/setting-up-powering-on/sound-system-rack%400.1x.png)
- - Get somewhere near the projector and press the remote's "Off" button twice to power on the projector
- <br />![NEC Projector Remote](../../assets/images/setting-up-powering-on/nec-projector-remore-off%400.25x.png)
- - Return the remote to the drawer.
+- Open the Windows Start menu.
+- Select `Power`.
+- Select `Shut down`.
+- Wait for the computer to fully shut down.
 
-## 6. Close Projector Screen
- - On the wall opposite the computer station, underneath the projector, switch the projector screen switch to the up position to close the projector screen.
+## Projector and Room Displays
 
-## 7. Power Off PTZ Camera
- - Retrieve the remote for the rear PTZ camera.
- - Get somewhere near the camera and press the power button
- <br />![PTZ Camera Remote](../../assets/images/setting-up-powering-on/ptzoptics-remote.png)
- - The left light on the camera will turn on. 
- <br />![PTZ Camera Light](../../assets/images/setting-up-powering-on/ptz-camera.png)
- - Return the remote to the drawer.
+### Turn Off the Projector / Rear TV
 
-## 8. Return and Turn Off iPad
- - Return the iPad to the storage location, plug it in, and power it off.
- <br />![iPad Storage](../../assets/images/setting-up-powering-on/mevos-ipad%400.1x.png)
+- Use the Mackey Hall wall touchscreen for projector and rear TV power.
+- If the touchscreen is not on the Homepage or `Power` page, press the `Home` icon in the top-left corner.
+- If you are on the Homepage, press `Power`.
 
-## 9. Power Off and Return Mevo Cameras
- - Power off the Mevo Cameras by holding the power button until it beeps. It will beep once to acknowldge you want to turn it off, wait a second, and then again as it turns off. Release the power button after the first beep.
-    <br />![Mevo Power](../../assets/images/setting-up-powering-on/mevo-back%400.5x.png)
- - Return the cameras to their storage location and plug in.
- - Return the stands to their storage location.
+<br />![Control Screen Homepage](../../assets/images/video/control-screen_new/homepage.png)
 
-## 10. Turn Off Sound System Amplifier
- - Turn off the amplifier on the sound system rack to turn off sound output from the mircophones.
- - The amplifier is the third most bottom thing on the sound system rack.
- <br />![Amplifier](../../assets/images/setting-up-powering-on/sound-system-rack-amplifier%400_3.png)
- - Press the power button in the bottom right of it. It will click back out and the light on it will turn off.
+- Press `Projector Off` to power off the projector.
+- If the rear TV is on, press and hold `Rear TV` for a few seconds to power it off.
+- Allow about 30 seconds for the projector to shut down.
 
-## 11. Return Microphones
- - Return the pulpit microphone to the drawer
- <br />![Pulpit](../../assets/images/setting-up-powering-on/pulpit%400.1x.png)
- - Retrieve the microphones for the piano and organ and return them to their bags.
-  <br />![Microphone Bags Labelled](../../assets/images/setting-up-powering-on/mic-bags-labelled%400.1x.png)
- - Return the stands to where you got them and the microphones in their bags to the drawer
+<br />![Power Menu Screen](../../assets/images/video/control-screen_new/power_1.png)
+
+### Retract the Projector Screen
+
+- The projector screen control switch is on the south wall, to the right of the windows.
+- Press the upper half of the switch fully in.
+- Wait for the screen to retract. It stops automatically.
+- Return the switch to the neutral center position after the screen is fully retracted.
+
+<br />![Projector Screen Controls Location](../../assets/images/video/raising-lowering_projector_screen/projector_screen_location.png)
+
+<br />![Projector Switch in Up Position](../../assets/images/video/raising-lowering_projector_screen/projector_screen_controls_up.png)
+
+## Cameras
+
+### Power Off the PTZ Camera
+
+- Use the Mackey Hall wall touchscreen for rear PTZ camera power.
+- If the touchscreen is not on the Homepage or `Power` page, press the `Home` icon in the top-left corner.
+- If you are on the Homepage, press `Power`.
+- Press `PTZ Camera` to power off the camera.
+
+<br />![Power Menu Screen](../../assets/images/video/control-screen_new/power_1.png)
+
+### Power Off and Return Mevo Cameras
+
+- Hold the Mevo power button until it beeps.
+- Release the button after the first beep. The camera will beep again as it powers off.
+- Return the cameras to their storage location.
+- Plug the cameras in.
+- Return the stands to their storage location.
+
+<br />![Mevo Power](../../assets/images/setting-up-powering-on/mevo-back%400.5x.png)
+
+## Audio
+
+### Return the iPad
+
+- Return the iPad to the top drawer of the sound system rack.
+- Plug it in so it charges for the next use.
+
+### Turn Off the Sound System Amplifier
+
+- Turn off the amplifier on the sound system rack.
+- The amplifier is the third unit from the bottom of the rack.
+- Press the power button at the bottom-right. It will click back out and the blue light will turn off.
+- Leave the red rack `Power` switch on unless a staff member has specifically asked for the full rack to be shut down.
+
+<br />![Amplifier Power Button](../../assets/images/audio/sound_system_on-off/power-new_amplifier.png)
+
+### Return Microphones
+
+- Return the pulpit microphone to the drawer.
+
+<br />![Pulpit](../../assets/images/setting-up-powering-on/pulpit%400.1x.png)
+
+- Retrieve the piano and organ microphones.
+- Return each microphone to its labeled bag.
+- Return the stands to where they were found.
+- Return the microphone bags to the drawer.
+
+<br />![Microphone Bags Labelled](../../assets/images/setting-up-powering-on/mic-bags-labelled%400.1x.png)

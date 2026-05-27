@@ -17,15 +17,23 @@ Follow the instructions below to get the computer, cameras, sound system, and pr
 ## 4. Cover Computer and Monitors
  - Replace the cover on the computer desk.
 
-## 5. Power Off Projector
- - Retrieve the remote from the second to bottom drawer on the sound system rack.
- <br />![NEC Projector Remote](../../assets/images/setting-up-powering-on/sound-system-rack%400.1x.png)
- - Get somewhere near the projector and press the remote's "Off" button twice to power on the projector
- <br />![NEC Projector Remote](../../assets/images/setting-up-powering-on/nec-projector-remore-off%400.25x.png)
- - Return the remote to the drawer.
+## 5. Power Off Projector / Rear TV
+ - Use the wall touchscreen in Mackey Hall for projector and rear TV power.
+ - If the touchscreen is not on the Homepage or the `Power` page, press the `Home` icon in the top-left corner.
+ - If you are on the Homepage, press `Power` to open the power controls.
+ <br />![Control Screen Homepage](../../assets/images/video/control-screen_new/homepage.png)
+ - Press `Projector Off` to power off the projector.
+ - If the rear TV is on, press and hold `Rear TV` for a few seconds to power it off.
+ <br />![Power Menu Screen](../../assets/images/video/control-screen_new/power_1.png)
+ - Allow about 30 seconds for the projector to fully shut down.
 
 ## 6. Close Projector Screen
- - On the wall opposite the computer station, underneath the projector, switch the projector screen switch to the up position to close the projector screen.
+ - The projector screen control switch is on the south wall, to the right of the windows.
+ <br />![Projector Screen Controls Location](../../assets/images/video/raising-lowering_projector_screen/projector_screen_location.png)
+ - Press the upper half of the screen control switch fully in.
+ - Wait while the screen retracts. It will stop automatically at its fully retracted position.
+ - Toggle the switch back to the neutral center position after the screen is fully retracted.
+ <br />![Projector Switch in Up Position](../../assets/images/video/raising-lowering_projector_screen/projector_screen_controls_up.png)
 
 ## 7. Power Off PTZ Camera
  - Retrieve the remote for the rear PTZ camera.
@@ -46,10 +54,11 @@ Follow the instructions below to get the computer, cameras, sound system, and pr
  - Return the stands to their storage location.
 
 ## 10. Turn Off Sound System Amplifier
- - Turn off the amplifier on the sound system rack to turn off sound output from the mircophones.
- - The amplifier is the third most bottom thing on the sound system rack.
- <br />![Amplifier](../../assets/images/setting-up-powering-on/sound-system-rack-amplifier%400_3.png)
- - Press the power button in the bottom right of it. It will click back out and the light on it will turn off.
+ - Turn off the amplifier on the sound system rack to turn off sound output from the microphones.
+ - The amplifier is the third unit from the bottom of the sound system rack.
+ - Press the power button in the bottom right of it. It will click back out and the light will turn off.
+ <br />![Amplifier Power Button](../../assets/images/audio/sound_system_on-off/power-new_amplifier.png)
+ - Leave the red rack `Power` switch on unless a staff member has specifically asked for the full rack to be shut down.
 
 ## 11. Return Microphones
  - Return the pulpit microphone to the drawer

@@ -26,7 +26,7 @@ const config: Config = {
           exclude: ['**/unused/**'],
           editUrl: 'https://github.com/westminsterwooster/wpc-tech-docs/edit/main/',
           showLastUpdateTime: true,
-          showLastUpdateAuthor: false,
+          showLastUpdateAuthor: true,
           includeCurrentVersion: true,
           lastVersion: '2026.05a',
           versions: {
@@ -88,11 +88,6 @@ const config: Config = {
           position: 'right'
         },
         {
-          href: '/manual-2026.05a.pdf',
-          label: 'PDF Manual',
-          position: 'right'
-        },
-        {
           href: 'https://github.com/westminsterwooster/wpc-tech-docs',
           label: 'GitHub',
           position: 'right'
@@ -105,10 +100,10 @@ const config: Config = {
         {
           title: 'Documentation',
           items: [
+            {label: 'Building Controls', to: '/docs/2026.05a/documentation/'},
             {label: 'Service Instructions', to: '/docs/2026.05a/docs/general'},
             {label: 'Computer', to: '/docs/2026.05a/docs/computer'},
-            {label: 'Online Applications', to: '/docs/2026.05a/docs/online'},
-            {label: 'PDF Manual', href: '/manual-2026.05a.pdf'}
+            {label: 'Online Applications', to: '/docs/2026.05a/docs/online'}
           ]
         },
         {
@@ -121,15 +116,15 @@ const config: Config = {
           ]
         },
         {
-          title: 'Project',
+          title: 'Contact',
           items: [
             {label: 'GitHub', href: 'https://github.com/westminsterwooster/wpc-tech-docs'},
-            {label: 'Email', href: 'mailto:jackveney03@gmail.com'}
+            {label: 'Email', href: 'mailto:jack@wpcwooster.org'}
           ]
         }
       ],
       copyright:
-        'Copyright (c) 2023 Jack Veney for Westminster Presbyterian Church Wooster, Ohio'
+        'Copyright (c) 2026 Jack Veney for Westminster Presbyterian Church Wooster, Ohio.'
     },
     prism: {
       additionalLanguages: ['powershell', 'yaml']

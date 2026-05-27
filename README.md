@@ -6,8 +6,6 @@ This repository contains the Westminster Presbyterian Church insider technology 
 
 - Node.js 20 or newer
 - npm
-- Pandoc for PDF generation
-- A PDF engine available to Pandoc, such as XeLaTeX or Tectonic
 
 ## Install
 
@@ -44,39 +42,17 @@ To create a future version:
 npm run docs:version -- 2026.06a
 ```
 
-Then update the navbar/manual links and PDF output name if the public manual filename changes.
-
-## PDF Manual
-
-Generate the printable manual with:
-
-```bash
-npm run docs:pdf
-```
-
-The generated PDF is written to:
-
-```text
-static/manual-2026.05a.pdf
-```
-
-The full build command is:
-
-```bash
-npm run build:all
-```
-
-`build:all` builds the Docusaurus site and generates the PDF so the manual is copied into the final static site.
+Then update the versioned links if the public docs version changes.
 
 ## Deployment
 
 For Cloudflare Pages, use:
 
-- Build command: `npm run build:all`
+- Build command: `npm run build`
 - Build output directory: `build`
 - Node version: `20` or newer
 
-For GitHub Pages, the included workflow builds the site, generates the PDF, uploads the PDF as an artifact, and deploys the `build/` directory.
+For GitHub Pages, the included workflow builds the site and deploys the `build/` directory.
 
 ## Authoring Notes
 

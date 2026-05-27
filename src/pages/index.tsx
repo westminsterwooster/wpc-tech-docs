@@ -5,37 +5,36 @@ import styles from './index.module.css';
 export default function Home() {
   return (
     <Layout>
-      <main className={styles.main}>
+      <main>
         <section className={styles.hero}>
-          <div className={styles.heroText}>
-            <img className={styles.logo} src="/img/WPC_logo.png" alt="" />
+          <div className={styles.inner}>
             <p className={styles.eyebrow}>Version 2026.05a</p>
-            <h1>Insider Technology Documentation</h1>
-            <p className={styles.lede}>
-              A maintainable reference for running livestream, camera, computer,
-              sound, online, and advanced technology workflows in Mackey Hall.
+            <h1 className={styles.title}>Insider Documentation</h1>
+            <p className={styles.subtitle}>
+              A clear operating and maintenance guide for Mackey Hall livestream,
+              camera, computer, projector, sound, and building-control workflows.
             </p>
             <div className={styles.actions}>
-              <Link className="button button--primary button--lg" to="/docs/2026.05a/">
-                Open docs
-              </Link>
-              <Link className="button button--secondary button--lg" to="/manual-2026.05a.pdf">
-                Download PDF
+              <Link className={`${styles.button} ${styles.primary}`} to="/docs/2026.05a/">
+                Open Docs
               </Link>
             </div>
           </div>
-          <div className={styles.quickLinks} aria-label="Documentation sections">
-            {[
-              ['Service Instructions', '/docs/2026.05a/docs/general'],
-              ['Computer', '/docs/2026.05a/docs/computer'],
-              ['Cameras', '/docs/2026.05a/docs/cameras'],
-              ['Online Applications', '/docs/2026.05a/docs/online'],
-              ['Advanced Information', '/docs/2026.05a/docs/advanced']
-            ].map(([label, to]) => (
-              <Link className={styles.quickLink} to={to} key={to}>
-                {label}
-              </Link>
-            ))}
+        </section>
+        <section className={styles.below} aria-label="Quick links">
+          <div className={styles.quickLinks}>
+            <Link className={styles.quickLink} to="/docs/2026.05a/docs/general">
+              <strong>Service Workflow</strong>
+              <p>Sunday setup, livestream, service operation, shutdown, and Stream Deck controls.</p>
+            </Link>
+            <Link className={styles.quickLink} to="/docs/2026.05a/documentation/">
+              <strong>Building Controls</strong>
+              <p>Current guest-facing projector, rear TV, screen, audio, microphone, and input guides.</p>
+            </Link>
+            <Link className={styles.quickLink} to="/docs/2026.05a/docs/computer">
+              <strong>Computer and Streaming</strong>
+              <p>OBS, Proclaim, cameras, stream destinations, maintenance, and online systems.</p>
+            </Link>
           </div>
         </section>
       </main>
