@@ -76,9 +76,7 @@ const themeConfig: ThemeConfig = {
         title: 'Documentation',
         items: [
           {label: 'Building Controls', to: '/docs/2026.05a/documentation/'},
-          {label: 'Service Instructions', to: '/docs/2026.05a/docs/general'},
-          {label: 'Computer', to: '/docs/2026.05a/docs/computer'},
-          {label: 'Online Applications', to: '/docs/2026.05a/docs/online'}
+          {label: 'Service Instructions', to: '/docs/2026.05a/docs/general'}
         ]
       },
       {
