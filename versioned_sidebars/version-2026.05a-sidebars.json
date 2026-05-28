@@ -1,0 +1,62 @@
+{
+  "docsSidebar": [
+    "index",
+    {
+      "type": "category",
+      "label": "Service Instructions",
+      "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "docs/general/index"
+      },
+      "items": [
+        "docs/general/setting-up-powering-on",
+        "docs/general/ipad-sound-system",
+        "docs/general/starting-recording-livestream",
+        "docs/general/during-service",
+        "docs/general/stopping-recording-livestream",
+        "docs/general/shutting-down-packing-up",
+        "docs/general/stream-deck"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Building Controls",
+      "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "documentation/index"
+      },
+      "items": [
+        {
+          "type": "category",
+          "label": "Video",
+          "collapsed": false,
+          "collapsible": false,
+          "items": [
+            "documentation/video/lowering_screen",
+            "documentation/video/retracting_screen",
+            "documentation/video/turning_projector_on",
+            "documentation/video/turning_projector_off",
+            "documentation/video/inputs"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Audio",
+          "collapsed": false,
+          "collapsible": false,
+          "items": [
+            "documentation/audio/turning_sound_system_on",
+            "documentation/audio/wall_audio_controls",
+            "documentation/audio/computer_audio",
+            "documentation/audio/bluetooth_pairing",
+            "documentation/audio/microphones"
+          ]
+        }
+      ]
+    },
+    "about",
+    "changelog"
+  ]
+}
