@@ -6,7 +6,8 @@
 _Generated from merged GitHub pull requests. Package updates are grouped separately so the public-facing changes stay easy to scan._
 
 ### Site and Content Changes
-- No site or content changes merged yet.
+- Fix changelog automation for protected main ([#55](https://github.com/westminsterwooster/wpc-tech-docs/pull/55))
+- Add insider PDF and changelog automation ([#54](https://github.com/westminsterwooster/wpc-tech-docs/pull/54))
 
 ### Documentation Changes
 - No documentation-only changes merged yet.
