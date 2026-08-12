@@ -1,6 +1,8 @@
 # WPC Insider Technology Documentation
 
-This repository contains the Westminster Presbyterian Church insider technology documentation for Mackey Hall. The site is built with Docusaurus and published as docs version `2026.05a`.
+This repository contains the Westminster Presbyterian Church insider technology documentation for Mackey Hall.
+
+The site is built with Docusaurus and published as a single current documentation site.
 
 ## Requirements
 
@@ -30,25 +32,23 @@ npm run build
 npm run serve
 ```
 
-`npm run build` writes the static site to `build/`. The output is suitable for Cloudflare Pages, GitHub Pages, or any static host.
+`npm run build` checks local Markdown links, builds the Docusaurus site, generates the printable PDF, and writes the static site to `build/`. The output is suitable for Cloudflare Pages, GitHub Pages, or any static host.
 
-## Versioning
-
-The current published documentation version is `2026.05a`.
-
-To create a future version:
+For a full validation and release-style build:
 
 ```bash
-npm run docs:version -- 2026.06a
+npm run build:all
 ```
 
-Then update the versioned links if the public docs version changes.
+## Publishing Workflow
+
+The published site always serves the current docs from `docs/`. Changes merge through pull requests, and `docs/changelog.md` is updated automatically from merged GitHub pull requests. No manual docs version bumps are needed.
 
 ## Deployment
 
 For Cloudflare Pages, use:
 
-- Build command: `npm run build`
+- Build command: `npm run build:all`
 - Build output directory: `build`
 - Node version: `20` or newer
 
@@ -57,7 +57,5 @@ For GitHub Pages, the included workflow builds the site and deploys the `build/`
 ## Authoring Notes
 
 - Keep docs in `docs/` for the editable current source.
-- Version snapshots live in `versioned_docs/`.
 - Curated navigation lives in `sidebars.ts`.
-- Versioned sidebar snapshots live in `versioned_sidebars/`.
 - Keep images near the related documentation unless they are global site assets.

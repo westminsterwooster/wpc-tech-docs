@@ -1,5 +1,27 @@
 # Changelog
 
+<!-- changelog:auto:start -->
+## Recent Changes
+
+_Generated from merged GitHub pull requests. Package updates are grouped separately so the public-facing changes stay easy to scan._
+
+### Site and Content Changes
+- No site or content changes merged yet.
+
+### Documentation Changes
+- No documentation-only changes merged yet.
+
+### Package and Maintenance Updates
+- No package or maintenance updates merged yet.
+
+<!-- changelog:auto:end -->
+
+## Current Edition
+
+- Removed public docs version switching so insiders always see the current documentation.
+- Added the generated printable PDF manual with a cover page and page-numbered table of contents.
+- Added automatic changelog updates from merged GitHub pull requests.
+
 ## 2026.05a
 
 - Refined the Sunday service guides into clearer operator-reference sections instead of long numbered step lists.

@@ -4,4 +4,6 @@ node_modules/
 build/
 .docusaurus/
 .docusaurus-pdf/
+.cache/
+static/insider-documentation.pdf
 npm-debug.log*

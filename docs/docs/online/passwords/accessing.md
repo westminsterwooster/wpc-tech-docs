@@ -24,7 +24,7 @@ This article details accessing the  password database. See below for the steps t
   Verify (or enter) the following details into the "Open Database - WPC_Tech_Passwords.kdbx" text boxes:
   <br />**Master password:** *```(see information on hidden password magnet)```*
   <br />**Key file/provider:** ```WPC_Tech_Passwords.keyx```
-  <br />*For security purposes, both of these are required to login to the password database. The key file is called ```WPC_Tech_Passwords.keyx``` and should be located on your computer somewhere. Search for it using the folder icon to the right of the dropdown. On the sanctuary computer the key file is located in the ```Documents``` folder. If you have lost this file, there is a backup located in the backups folder. [See this article on restoring the key file.](../backups/passwords/security_key.md)*
+  <br />*For security purposes, both of these are required to login to the password database. The key file is called ```WPC_Tech_Passwords.keyx``` and should be located on your computer somewhere. Search for it using the folder icon to the right of the dropdown. On the sanctuary computer the key file is located in the ```Documents``` folder. If you have lost this file, there is a backup located in the backups folder.*
   <br /><img src="../assets/accessing/open_database.png" alt="Open Database Prompt"/>
 
 ## 4. Finishing Up
