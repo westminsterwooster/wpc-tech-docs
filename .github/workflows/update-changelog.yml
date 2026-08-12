@@ -1,7 +1,9 @@
 name: Update Changelog
 
 on:
-  push:
+  pull_request:
+    types:
+      - closed
     branches:
       - main
   workflow_dispatch:
@@ -12,17 +14,19 @@ concurrency:
 
 permissions:
   contents: write
-  pull-requests: read
+  pull-requests: write
 
 jobs:
   update:
     name: Update Changelog
     runs-on: ubuntu-latest
-    if: github.actor != 'github-actions[bot]'
+    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.merged == true && github.event.pull_request.head.ref != 'automation/update-changelog')
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v7
+        with:
+          ref: main
 
       - name: Set up Node.js
         uses: actions/setup-node@v7
@@ -35,7 +39,10 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node scripts/update-changelog.mjs
 
-      - name: Commit changelog
+      - name: Create changelog pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHANGELOG_BRANCH: automation/update-changelog
         run: |
           if git diff --quiet -- docs/changelog.md; then
             echo "Changelog is already current."
@@ -44,6 +51,20 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git switch -c "$CHANGELOG_BRANCH"
           git add docs/changelog.md
           git commit -m "Update changelog"
-          git push
+          git push --force origin "HEAD:$CHANGELOG_BRANCH"
+
+          existing_pr="$(gh pr list --base main --head "$CHANGELOG_BRANCH" --state open --json number --jq '.[0].number // empty')"
+          if [ -n "$existing_pr" ]; then
+            gh pr edit "$existing_pr" \
+              --title "Update changelog" \
+              --body "Updates docs/changelog.md from merged pull requests."
+          else
+            gh pr create \
+              --base main \
+              --head "$CHANGELOG_BRANCH" \
+              --title "Update changelog" \
+              --body "Updates docs/changelog.md from merged pull requests."
+          fi
