@@ -1,3 +1,4 @@
+import { execFileSync } from "node:child_process";
 import { readFileSync, writeFileSync } from "node:fs";
 
 const changelogPath = "docs/changelog.md";
@@ -60,33 +61,38 @@ function bullet(pr) {
   return `- ${markdownText(pr.title)} ([#${prNumber(pr.number)}](${prUrl(pr)}))`;
 }
 
-async function github(path, searchParams = {}) {
-  const url = new URL(`https://api.github.com${path}`);
+function github(path, searchParams = {}) {
+  const url = new URL(path, "https://api.github.com");
   for (const [key, value] of Object.entries(searchParams)) {
     url.searchParams.set(key, String(value));
   }
 
-  const response = await fetch(url, {
-    headers: {
-      accept: "application/vnd.github+json",
-      authorization: `Bearer ${token}`,
-      "x-github-api-version": "2022-11-28",
+  const output = execFileSync(
+    "gh",
+    [
+      "api",
+      `${url.pathname}${url.search}`,
+      "--jq",
+      "map({number,title,merged_at,updated_at,labels:(.labels | map({name}))})",
+    ],
+    {
+      encoding: "utf8",
+      env: {
+        ...process.env,
+        GH_TOKEN: token,
+      },
     },
-  });
+  );
 
-  if (!response.ok) {
-    throw new Error(`GitHub API request failed: ${response.status} ${response.statusText}`);
-  }
-
-  return response.json();
+  return JSON.parse(output);
 }
 
-async function getMergedPullRequests() {
+function getMergedPullRequests() {
   const prs = [];
   let page = 1;
 
   while (true) {
-    const batch = await github(`/repos/${owner}/${repo}/pulls`, {
+    const batch = github(`/repos/${owner}/${repo}/pulls`, {
       state: "closed",
       sort: "updated",
       direction: "desc",
@@ -176,10 +182,7 @@ function updateChangelog(generatedBlock) {
   return changelog.replace("# Changelog", `# Changelog\n\n${generatedBlock}`);
 }
 
-const prs = await getMergedPullRequests();
+const prs = getMergedPullRequests();
 const generatedBlock = buildGeneratedBlock(prs);
 
-// The changelog intentionally writes sanitized GitHub PR metadata into Markdown.
-// PR titles are escaped, and PR links are built from validated numeric PR IDs.
-// codeql[js/http-to-file-access]
 writeFileSync(changelogPath, updateChangelog(generatedBlock));
