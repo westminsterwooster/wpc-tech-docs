@@ -27,7 +27,6 @@ const pdfMarginMm = process.env.PDF_MARGIN_MM ?? "12";
 const pageConcurrency = process.env.PDF_PAGE_CONCURRENCY ?? "4";
 const imageMaxWidth = Number(process.env.PDF_IMAGE_MAX_WIDTH ?? 1400);
 const imageQuality = Number(process.env.PDF_IMAGE_QUALITY ?? 68);
-const npx = "npx";
 const require = createRequire(import.meta.url);
 const pdfCliPath = require.resolve("docusaurus-docs-to-pdf/dist/main.js");
 const pdfHtmlPath = require.resolve("docusaurus-docs-to-pdf/dist/html.js");
