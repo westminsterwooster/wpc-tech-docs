@@ -10,22 +10,7 @@ const docsOptions: DocsOptions = {
   exclude: ['**/unused/**'],
   editUrl: 'https://github.com/westminsterwooster/wpc-tech-docs/edit/main/',
   showLastUpdateTime: true,
-  showLastUpdateAuthor: true,
-  includeCurrentVersion: true,
-  lastVersion: '2026.05a',
-  versions: {
-    current: {
-      label: 'Next',
-      path: 'next',
-      banner: 'unreleased'
-    },
-    '2026.05a': {
-      label: '2026.05a',
-      path: '2026.05a',
-      banner: 'none',
-      badge: false
-    }
-  }
+  showLastUpdateAuthor: true
 };
 
 const presetOptions: PresetOptions = {
@@ -59,7 +44,8 @@ const themeConfig: ThemeConfig = {
         label: 'Docs'
       },
       {
-        type: 'docsVersionDropdown',
+        href: 'pathname:///insider-documentation.pdf',
+        label: 'PDF',
         position: 'right'
       },
       {
@@ -75,8 +61,9 @@ const themeConfig: ThemeConfig = {
       {
         title: 'Documentation',
         items: [
-          {label: 'Building Controls', to: '/docs/2026.05a/documentation/'},
-          {label: 'Service Instructions', to: '/docs/2026.05a/docs/general'}
+          {label: 'Building Controls', to: '/docs/documentation/'},
+          {label: 'Service Instructions', to: '/docs/docs/general'},
+          {label: 'Printable PDF', href: 'pathname:///insider-documentation.pdf'}
         ]
       },
       {
