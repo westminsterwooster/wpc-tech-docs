@@ -6,13 +6,17 @@
 _Generated from merged GitHub pull requests. Package updates are grouped separately so the public-facing changes stay easy to scan._
 
 ### Site and Content Changes
-- No site or content changes merged yet.
+- Fix changelog automation for protected main ([#55](https://github.com/westminsterwooster/wpc-tech-docs/pull/55))
+- Add insider PDF and changelog automation ([#54](https://github.com/westminsterwooster/wpc-tech-docs/pull/54))
 
 ### Documentation Changes
 - No documentation-only changes merged yet.
 
 ### Package and Maintenance Updates
-- No package or maintenance updates merged yet.
+- Update svgo from 3\.3\.4 to 3\.3\.5 ([#59](https://github.com/westminsterwooster/wpc-tech-docs/pull/59))
+- Update colord from 2\.9\.3 to 2\.10\.0 ([#58](https://github.com/westminsterwooster/wpc-tech-docs/pull/58))
+- Update browserslist from 4\.28\.6 to 4\.28\.9 ([#57](https://github.com/westminsterwooster/wpc-tech-docs/pull/57))
+- Update sharp from 0\.35\.3 to 0\.35\.4 ([#56](https://github.com/westminsterwooster/wpc-tech-docs/pull/56))
 
 <!-- changelog:auto:end -->
 
