@@ -19,7 +19,9 @@ Use `npm install` instead when intentionally updating dependencies.
 
 ## Automated Dependency Fixes
 
-The `NPM Audit Fix` GitHub Actions workflow runs daily at 00:00 UTC and can also be started manually from the Actions tab. It uses Node.js 26, runs `npm ci` and `npm run audit-fix -- --audit-level=none`, then validates tests (if present), types, and the full build before opening or updating `chore/npm-audit-fix`. Only `package.json` and `package-lock.json` changes are included in the pull request.
+The `NPM Audit Fix` GitHub Actions workflow runs daily at 00:00 UTC and can also be started manually from the Actions tab. It uses Node.js 22, runs `npm ci` and `npm run audit-fix -- --audit-level=none`, then validates tests (if present), types, and the full build before opening or updating `chore/npm-audit-fix`. It always checks out the default branch, including for manual runs. Only `package.json` and `package-lock.json` changes are included in the pull request.
+
+Node.js 22 avoids a [Puppeteer browser extraction bug](https://github.com/puppeteer/puppeteer/issues/14957) affecting Node.js 26 and recent Node.js 24 releases with the current PDF tooling.
 
 Pull request creation uses the `NPM_AUDIT_FIX_TOKEN` repository Actions secret. Configure it with a fine-grained personal access token scoped to this repository with **Contents: Read and write** and **Pull requests: Read and write** permissions, and replace it before expiry. Obtain organization approval if required.
 
