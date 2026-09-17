@@ -6,13 +6,22 @@
 _Generated from merged GitHub pull requests. Package updates are grouped separately so the public-facing changes stay easy to scan._
 
 ### Site and Content Changes
-- No site or content changes merged yet.
+- Fix NPM audit PDF build on GitHub Actions ([#63](https://github.com/westminsterwooster/wpc-tech-docs/pull/63))
+- Add automated npm audit fix workflow ([#61](https://github.com/westminsterwooster/wpc-tech-docs/pull/61))
+- Fix changelog automation for protected main ([#55](https://github.com/westminsterwooster/wpc-tech-docs/pull/55))
+- Add insider PDF and changelog automation ([#54](https://github.com/westminsterwooster/wpc-tech-docs/pull/54))
 
 ### Documentation Changes
 - No documentation-only changes merged yet.
 
 ### Package and Maintenance Updates
-- No package or maintenance updates merged yet.
+- Update the react group with 2 updates ([#60](https://github.com/westminsterwooster/wpc-tech-docs/pull/60))
+- Update image\-size from 2\.0\.2 to 2\.0\.4 ([#62](https://github.com/westminsterwooster/wpc-tech-docs/pull/62))
+- chore: npm audit fix ([#64](https://github.com/westminsterwooster/wpc-tech-docs/pull/64))
+- Update svgo from 3\.3\.4 to 3\.3\.5 ([#59](https://github.com/westminsterwooster/wpc-tech-docs/pull/59))
+- Update colord from 2\.9\.3 to 2\.10\.0 ([#58](https://github.com/westminsterwooster/wpc-tech-docs/pull/58))
+- Update browserslist from 4\.28\.6 to 4\.28\.9 ([#57](https://github.com/westminsterwooster/wpc-tech-docs/pull/57))
+- Update sharp from 0\.35\.3 to 0\.35\.4 ([#56](https://github.com/westminsterwooster/wpc-tech-docs/pull/56))
 
 <!-- changelog:auto:end -->
 
