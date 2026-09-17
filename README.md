@@ -17,6 +17,14 @@ npm ci
 
 Use `npm install` instead when intentionally updating dependencies.
 
+## Automated Dependency Fixes
+
+The `NPM Audit Fix` GitHub Actions workflow runs daily at 00:00 UTC and can also be started manually from the Actions tab. It uses Node.js 26, runs `npm ci` and `npm run audit-fix -- --audit-level=none`, then validates tests (if present), types, and the full build before opening or updating `chore/npm-audit-fix`. Only `package.json` and `package-lock.json` changes are included in the pull request.
+
+Pull request creation uses the `NPM_AUDIT_FIX_TOKEN` repository Actions secret. Configure it with a fine-grained personal access token scoped to this repository with **Contents: Read and write** and **Pull requests: Read and write** permissions, and replace it before expiry. Obtain organization approval if required.
+
+The workflow does not merge pull requests or force breaking dependency upgrades. `--audit-level=none` lets available fixes proceed even when some vulnerabilities remain; review the audit output in the workflow logs for issues requiring manual remediation. Installation errors and failed validation still stop the workflow. Run `npm run audit-fix` locally to retain npm's default failure threshold for remaining vulnerabilities.
+
 ## Local Development
 
 ```bash

@@ -1,0 +1,89 @@
+name: NPM Audit Fix
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: npm-audit-fix
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  npm-audit-fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run npm audit fix
+        # Allow partial fixes when some advisories still need manual remediation.
+        # Installation and other operational errors must still fail the job.
+        run: npm run audit-fix -- --audit-level=none
+
+      - name: Run tests
+        run: npm test --if-present
+
+      - name: Type check
+        run: npm run typecheck
+
+      - name: Run build
+        run: npm run build --if-present
+
+      - name: Detect dependency changes
+        id: changes
+        shell: bash
+        run: |
+          if [[ -n "$(git status --porcelain -- package.json package-lock.json)" ]]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create pull request
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.NPM_AUDIT_FIX_TOKEN }}
+          add-paths: |
+            package.json
+            package-lock.json
+          commit-message: |
+            chore: npm audit fix
+
+            Co-authored-by: Codex <noreply@openai.com>
+          title: 'chore: npm audit fix'
+          body: |
+            Automated npm audit fix.
+
+            This PR was created automatically by the NPM Audit Fix workflow.
+
+            - Dependencies were installed with `npm ci`
+            - `npm run audit-fix -- --audit-level=none` was executed without forcing breaking upgrades
+            - Remaining vulnerabilities, if any, are reported in the workflow logs and need manual review
+            - Tests were run if a test script exists
+            - Type checking passed
+            - Build was run if a build script exists
+
+            Workflow: ${{ github.workflow }}
+            Run ID: ${{ github.run_id }}
+
+            Co-authored-by: Codex <noreply@openai.com>
+          branch: chore/npm-audit-fix
+          delete-branch: true
+          labels: dependencies,security
